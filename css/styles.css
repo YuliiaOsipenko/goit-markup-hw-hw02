@@ -1,0 +1,215 @@
+/* main color: #212121 */
+/*second color: #757575  */
+/* fon #F5F4FA */
+/* white #FFFFFF */
+/* accent #2196F3 */
+
+:root {
+    --title-color: #212121;
+    --special-title-color:#FFFFFF;
+    --primary-text-color: #757575;
+    --accent-color: #2196F3;
+    --primary-bgc: #FFFFFF;
+    --secondary-bgc: #F5F4FA;
+    --hero-bgc: #2F303A;
+}
+
+/*ГЛАВНАЯ*/
+
+body {
+    color: #2a2a2a;
+    background-color: #fff;
+    font-family: Roboto; sans-serif;
+    letter-spacing: 0.03em;
+
+}
+/* start header*/
+.logo-header {
+    color: var(--accent-color);
+    font-family: Raleway; sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 31px;
+    }
+.second-logo-header {
+    font-family: Raleway; sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 31px;
+}
+.about, .portfolio-list, .team-list, .footer, .site-nav, .menu-list, .projects-list {
+    list-style: none;
+}
+
+.site-link{
+    color: #212121;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1,14;
+    letter-spacing: 0.02em;
+}
+.site-link:hover, .site-link:focus {
+    color: var(--accent-color)
+}
+.contacts-header {
+    color: #757575;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1,14;
+    letter-spacing: 0.02em;
+}
+.contacts-header:hover, .contacts-header:focus {
+    color: var(--accent-color);
+}
+/* end header*/
+/* start hero*/
+.hero {
+    background-color: var(--hero-bgc);
+}
+.hero-title {
+    color: var(--special-title-color);
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1,36;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    text-align: center;
+   }
+.hero-button {
+    color: var(--special-title-color);
+    background-color: var(--accent-color);
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1,87;
+    letter-spacing: 0.06em;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+/* end hero*/
+/* start  about*/
+.about, .portfolio, .header {
+    background-color: var(--primary-bgc);
+}
+.about-title{
+    color: var(--title-color);
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1,14;
+    text-transform: uppercase;
+}
+.about-list {
+    color: var(--primary-text-color);
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1,7;
+}
+/* end about*/
+/* start portfolio*/
+.portfolio-title{
+    color: var(--title-color);
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1,16;
+    text-align: center;
+}
+/* end portfolio*/
+/* start team*/
+.team {
+    background-color: var(--secondary-bgc)
+}
+.team-title {
+    color: var(--title-color);
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1,16;
+    text-align: center;
+}
+.team-name {
+    color: var(--title-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1,18;
+    text-align: center;
+}
+.team-profession {
+    color: var(--primary-text-color);
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1,18;
+    text-align: center;
+}
+/* end team*/
+/* start footer*/
+.footer {
+    background-color: var(--hero-bgc);
+}
+.logo-footer{
+    color: var(--accent-color);
+    font-family: Raleway; sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 31px;
+}
+.second-logo-footer{
+    color:#FFFFFF;
+    font-family: Raleway; sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 31px;
+}
+.footer-adress{
+    color:#FFFFFF;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height:1,7;
+}
+.footer-contacts{
+    color: rgba(255, 255, 255, 0.6);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height:1,7;
+}
+/* end footer*/
+/*КОНЕЦ ГЛАВНОЙ СТРАНИЦЫ*/
+
+/*PORTFOLIO*/
+/* start menu*/
+.menu-button{
+    color: var(--title-color);
+    background-color: var(--secondary-bgc);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1,6;
+    text-align: center;
+}
+.menu-button:hover, .menu-button:focus {
+    color: var(--special-title-color);
+    background-color: var(--accent-color);
+}
+/* end menu*/
+/* start projects*/
+.projects-title{
+    color: var(--title-color);
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+.projects-filter {
+    color:var(--primary-text-color)
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1,87;
+}
+/* end projects*/
+/* END PORTFOLIO*/
