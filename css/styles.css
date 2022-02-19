@@ -78,6 +78,7 @@ body {
     text-transform: uppercase;
     text-align: center;
    }
+ 
 .hero-button {
     color: var(--special-title-color);
     background-color: var(--accent-color);
@@ -191,6 +192,7 @@ body {
     font-size: 16px;
     line-height: 1,6;
     text-align: center;
+    cursor: pointer;
 }
 .menu-button:hover, .menu-button:focus {
     color: var(--special-title-color);
