@@ -21,9 +21,12 @@ body {
     background-color: #fff;
     font-family: Roboto; sans-serif;
     letter-spacing: 0.03em;
-
+    
 }
 /* start header*/
+.logo {
+    text-decoration: none;
+}
 .logo-header {
     color: var(--accent-color);
     font-family: Raleway; sans-serif;
@@ -31,6 +34,7 @@ body {
     font-weight: bold;
     font-size: 26px;
     line-height: 31px;
+    
     }
 .second-logo-header {
     font-family: Raleway; sans-serif;
@@ -38,7 +42,11 @@ body {
     font-weight: bold;
     font-size: 26px;
     line-height: 31px;
+    color: var(--title-color);
+   
+    
 }
+
 .about, .portfolio-list, .team-list, .footer, .site-nav, .menu-list, .projects-list {
     list-style: none;
 }
@@ -47,8 +55,9 @@ body {
     color: #212121;
     font-weight: 500;
     font-size: 14px;
-    line-height: 1,14;
+    line-height: 1.14;
     letter-spacing: 0.02em;
+    text-decoration: none;
 }
 .site-link:hover, .site-link:focus {
     color: var(--accent-color)
@@ -57,8 +66,9 @@ body {
     color: #757575;
     font-weight: 500;
     font-size: 14px;
-    line-height: 1,14;
+    line-height: 1.14;
     letter-spacing: 0.02em;
+    text-decoration: none;
 }
 .contacts-header:hover, .contacts-header:focus {
     color: var(--accent-color);
@@ -73,7 +83,7 @@ body {
     font-style: normal;
     font-weight: 900;
     font-size: 44px;
-    line-height: 1,36;
+    line-height: 1.36;
     letter-spacing: 0.06em;
     text-transform: uppercase;
     text-align: center;
@@ -84,7 +94,7 @@ body {
     background-color: var(--accent-color);
     font-weight: bold;
     font-size: 16px;
-    line-height: 1,87;
+    line-height: 1.87;
     letter-spacing: 0.06em;
     display: flex;
     align-items: center;
@@ -100,14 +110,14 @@ body {
     color: var(--title-color);
     font-weight: bold;
     font-size: 14px;
-    line-height: 1,14;
+    line-height: 1.14;
     text-transform: uppercase;
 }
 .about-list {
     color: var(--primary-text-color);
     font-weight: normal;
     font-size: 14px;
-    line-height: 1,7;
+    line-height: 1.7;
 }
 /* end about*/
 /* start portfolio*/
@@ -115,7 +125,7 @@ body {
     color: var(--title-color);
     font-weight: bold;
     font-size: 36px;
-    line-height: 1,16;
+    line-height: 1.16;
     text-align: center;
 }
 /* end portfolio*/
@@ -127,27 +137,28 @@ body {
     color: var(--title-color);
     font-weight: bold;
     font-size: 36px;
-    line-height: 1,16;
+    line-height: 1.16;
     text-align: center;
 }
 .team-name {
     color: var(--title-color);
     font-weight: 500;
     font-size: 16px;
-    line-height: 1,18;
+    line-height: 1.18;
     text-align: center;
 }
 .team-profession {
     color: var(--primary-text-color);
     font-weight: normal;
     font-size: 16px;
-    line-height: 1,18;
+    line-height: 1.18;
     text-align: center;
 }
 /* end team*/
 /* start footer*/
 .footer {
     background-color: var(--hero-bgc);
+    
 }
 .logo-footer{
     color: var(--accent-color);
@@ -155,7 +166,8 @@ body {
     font-style: normal;
     font-weight: bold;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.19;
+    
 }
 .second-logo-footer{
     color:#FFFFFF;
@@ -163,21 +175,23 @@ body {
     font-style: normal;
     font-weight: bold;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.19;
 }
 .footer-adress{
     color:#FFFFFF;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
-    line-height:1,7;
+    line-height:1.7;
+    text-decoration: none;
 }
 .footer-contacts{
     color: rgba(255, 255, 255, 0.6);
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
-    line-height:1,7;
+    line-height: 1.7;
+    text-decoration: none;
 }
 /* end footer*/
 /*КОНЕЦ ГЛАВНОЙ СТРАНИЦЫ*/
@@ -190,9 +204,10 @@ body {
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 1,6;
+    line-height: 1.6;
     text-align: center;
     cursor: pointer;
+    font-family: Roboto; sans-serif;
 }
 .menu-button:hover, .menu-button:focus {
     color: var(--special-title-color);
@@ -206,12 +221,14 @@ body {
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
+    font-family: Roboto; sans-serif;
 }
 .projects-filter {
-    color:var(--primary-text-color)
+    color:var(--primary-text-color);
     font-weight: normal;
     font-size: 16px;
-    line-height: 1,87;
+    line-height: 1.87;
+    font-family: Roboto; sans-serif;
 }
 /* end projects*/
 /* END PORTFOLIO*/
